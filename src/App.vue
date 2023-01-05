@@ -14,13 +14,12 @@
     </div>
     <div class="results" v-show="resultBox">
       <div class="resultbox badres" :class="{ active: resultFlagBad }">
-        <p>Bad result</p>
+        <p>Bad result! :(</p>
         <p>Your average miss is >5°</p>
       </div>
       <div class="resultbox okres" :class="{ active: resultFlagOk }">
-        <p>Good result</p>
+        <p>Good result!</p>
         <p>Your average miss is 3-5°</p>
-
       </div>
       <div class="resultbox superres" :class="{ active: resultFlagPerf }">
         <p>Perfect result!</p>
